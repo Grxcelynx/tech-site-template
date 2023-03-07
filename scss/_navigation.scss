@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: $main;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    overflow-x: hidden;
+    height: 60px;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: $main;
+    width: 100px;
+    float: left;
+    margin: 18px auto 15px 60px;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    overflow-x: hidden;
+    float: right;
+    margin: 25px 35px 15px auto;
+}
+
+
+.navlinks li {
+    list-style: none;
+    overflow-x: hidden;
+}
+
+.navlinks a {
+    color: $secondary;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin: auto 20px;
+}
+
+.burger {
+    display: none;
+    overflow-x: hidden;
+}
+
+.burger div {
+    width: 20px;
+    height: 2px;
+    background-color: grey;
+    overflow-x: hidden;
+    margin: 5px 0%;
+    // float: right;
+}
+
+@media (max-width: 680px){
+    body {
+       overflow-x: hidden;
+    }
+
+    .navlinks {
+        position: absolute;
+        right: 0px;
+        height: 100%;
+        width: 25%;
+        top: 60px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(110%);
+        transition: transform 0.5s ease-in;
+        overflow-x: hidden;
+        z-index: 1;
+        margin: auto;
+    }
+
+    .navlinks li {
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+        overflow-x: hidden;
+        float: right;
+        margin: 18px 60px 0px 20px;
+        height: auto;
+    }
+
+
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+.toggle .line1, .toggle .line2 , .toggle .line3  {
+    background-color: $secondary;
+}
+

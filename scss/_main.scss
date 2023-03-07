@@ -1,0 +1,127 @@
+.section1{
+   background-color: $secondary;
+
+    .inner-container1{
+        background-repeat: no-repeat;
+        background-size: contain !important;
+        background-position: center;
+        background: linear-gradient(rgba(102, 7, 100, 0.5), rgba(102, 7, 100, 0.5)), (url(/imgs/sandro-katalina-k1bO_VTiZSs-unsplash.jpg));
+        padding: 200px 90px 30px 20px;
+        height: auto;
+
+
+        .inner-container2{
+            height: auto;
+            max-width: 500px;
+            padding: 20px 40px;
+            margin-bottom: 30px;
+            float: right;
+            background-color: white;
+            color: $text;
+        
+        
+            h2{
+                font-size: 1.8rem;
+                line-height: 2rem;
+                margin-bottom: 30px;
+            }
+        
+            p{
+                font-size: 1.4rem;
+                line-height: 1.8rem;
+                letter-spacing: 0.6px;
+                margin-bottom: 30px;
+            }
+        
+            h5{
+                margin: 20px auto;
+            }
+        
+            button{
+                padding: 10px 20px;
+                border-radius: 20px;
+                background-color: $secondary;
+                border: 0;
+                a{
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 600;
+                    letter-spacing: 0.8px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .section1{
+    
+        .inner-container1{
+            padding: 150px 30px 20px 70px;
+
+            .inner-container2{
+        
+                h2{
+                    font-size: 1.5rem;
+                    line-height: 1.8rem;
+                    margin-bottom: 20px;
+                }
+            
+                p{
+                    font-size: 1.1rem;
+                    line-height: 1.3rem;
+                    margin-bottom: 20px;
+                }
+            
+                h5{
+                    margin: 20px auto;
+                }
+            
+                button{
+                    a{
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+          
+        }
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .section1{
+    
+        .inner-container1{
+            padding: 350px auto 20px auto;
+
+            .inner-container2{
+        
+                h2{
+                    font-size: 1rem;
+                    line-height: 1.1rem;
+                    margin-bottom: 20px;
+                }
+            
+                p{
+                    font-size: 0.8rem;
+                    line-height: 1rem;
+                    margin-bottom: 20px;
+                }
+            
+                h5{
+                    margin: 20px auto;
+                }
+            
+                button{
+                    padding: 5px 10px;
+                    a{
+                        font-size: 0.5rem;
+                    }
+                }
+            }
+          
+        }
+    }
+}
