@@ -24,7 +24,7 @@
 
 .section1 .inner-container1 .inner-container2 h2 {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 2.3rem;
   margin-bottom: 30px;
 }
 
@@ -104,22 +104,274 @@
 .section2 {
   height: auto;
   width: 100%;
+  background-color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(transparent), color-stop(#660764), to(#660764));
+  background: linear-gradient(to bottom, transparent, transparent, #660764, #660764);
+}
+
+.section2 h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  color: #854d85;
+  margin: 110px auto 10px auto;
+  text-align: center;
+}
+
+.section2 h2 {
+  font-size: 3.5rem;
+  letter-spacing: 0.9px;
+  line-height: 4rem;
+  color: #381f38;
+  margin: 10px auto;
+  text-align: center;
 }
 
 .section2 .section2-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 100%;
-  margin: 0 auto;
+  margin: 60px auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .section2 .section2-inner .cards {
-  margin: 0 auto;
-  display: inline-block;
-  background-color: white;
-  height: 250px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #381f38;
+  color: white;
+  height: auto;
   width: 300px;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.section2 .section2-inner .cards h3 {
+  margin: 0px auto 15px auto;
+}
+
+.section2 .section2-inner .cards img {
+  margin: 10px auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 70px;
+  width: 70px;
+}
+
+.section2 .section2-inner .cards h6 {
+  margin: 10px auto;
+}
+
+.section2 .section2-inner .cards h6 a {
+  color: white;
+}
+
+.section2 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px auto 100px auto;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #381f38;
+  border: 0;
+}
+
+.section2 button a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+}
+
+@media screen and (max-width: 931px) {
+  .section2 .section2-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin: 40px auto;
+  }
+  .section2 .section2-inner .cards {
+    margin: 40px auto;
+  }
+}
+
+.section3 {
+  background: -webkit-gradient(linear, left bottom, left top, from(transparent), to(#660764));
+  background: linear-gradient(to top, transparent, #660764);
+  height: auto;
+}
+
+.section3 .inner-section3 {
+  margin: 300px auto 60px auto;
+  padding: 0px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1em;
+}
+
+.section3 .inner-section3 .left {
+  width: 70%;
+  padding-left: 60px;
+}
+
+.section3 .inner-section3 .left h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.section3 .inner-section3 .left img {
+  height: 540px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section3 .inner-section3 .left h6 {
+  margin: 5px auto;
+}
+
+.section3 .inner-section3 .right {
+  margin-top: 60px;
+  width: 30%;
+}
+
+.section3 .inner-section3 .right .inner h2 {
+  margin: 10px auto;
+}
+
+.section3 .inner-section3 .right .inner p {
+  margin: 5px auto;
+  padding-left: 30px;
+}
+
+.section3 .inner-section3 .right .inner button {
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 30px;
+}
+
+.section3 .inner-section3 .right .inner button a {
+  text-transform: uppercase;
+  color: #660764;
+}
+
+@media screen and (max-width: 900px) {
+  .section3 .inner-section3 {
+    margin: 200px auto 40px auto;
+    padding: 0px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section3 .inner-section3 .left {
+    width: 100%;
+    padding-left: 0px;
+    margin: 0 auto;
+  }
+  .section3 .inner-section3 .left h2 {
+    text-align: center;
+  }
+  .section3 .inner-section3 .left img {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin: 0 auto;
+  }
+  .section3 .inner-section3 .left h6 {
+    margin: 5px auto;
+  }
+  .section3 .inner-section3 .right {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .section3 .inner-section3 .right .inner {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .section3 .inner-section3 .right .inner h2 {
+    margin: 20px auto;
+  }
+  .section3 .inner-section3 .right .inner p {
+    margin: 5px auto;
+    padding-left: 0px;
+    width: 350px;
+  }
+}
+
+.section4 {
+  background-color: #381f38;
+}
+
+.section4 .inner-section4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 30px 40px;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section4 .inner-section4 h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.section4 .inner-section4 button {
+  background-color: white;
+  border-color: transparent;
+  border-radius: 50px;
+  margin-left: 50px;
+  padding: 10px 40px;
+}
+
+.section4 .inner-section4 button a {
+  text-transform: uppercase;
+  color: #660764;
 }
 
 * {
@@ -136,10 +388,6 @@ h1 h2 h3 h4 h5 h6 {
 
 a p {
   font-family: "Josefin Sans", sans-serif;
-}
-
-body {
-  background-color: #381f38;
 }
 
 nav {
