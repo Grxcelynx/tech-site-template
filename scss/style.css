@@ -2,8 +2,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 7, 100, 0.1)), to(rgba(102, 7, 100, 0.1))), url(/imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
-  background-image: linear-gradient(rgba(102, 7, 100, 0.1), rgba(102, 7, 100, 0.1)), url(/imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 7, 100, 0.1)), to(rgba(102, 7, 100, 0.1))), url(./imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
+  background-image: linear-gradient(rgba(102, 7, 100, 0.1), rgba(102, 7, 100, 0.1)), url(./imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
   padding: 200px 90px 30px 20px;
   height: auto;
 }
