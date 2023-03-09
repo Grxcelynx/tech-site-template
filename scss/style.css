@@ -1,18 +1,14 @@
-.section1 {
-  background-color: #660764;
-}
-
 .section1 .inner-container1 {
   background-repeat: no-repeat;
-  background-size: contain !important;
+  background-size: cover;
   background-position: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 7, 100, 0.5)), to(rgba(102, 7, 100, 0.5))), url(./imgs/sandro-katalina-k1bO_VTiZSs-unsplash.jpg);
-  background: linear-gradient(rgba(102, 7, 100, 0.5), rgba(102, 7, 100, 0.5)), url(./imgs/sandro-katalina-k1bO_VTiZSs-unsplash.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(102, 7, 100, 0.1)), to(rgba(102, 7, 100, 0.1))), url(/imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
+  background-image: linear-gradient(rgba(102, 7, 100, 0.1), rgba(102, 7, 100, 0.1)), url(/imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
   padding: 200px 90px 30px 20px;
   height: auto;
 }
 
-.section1 .inner-container1 .inner-container2 {
+.section1 .inner-container2 {
   height: auto;
   max-width: 500px;
   padding: 20px 40px;
@@ -22,31 +18,31 @@
   color: #080008;
 }
 
-.section1 .inner-container1 .inner-container2 h2 {
+.section1 .inner-container2 h2 {
   font-size: 1.8rem;
   line-height: 2.3rem;
   margin-bottom: 30px;
 }
 
-.section1 .inner-container1 .inner-container2 p {
+.section1 .inner-container2 p {
   font-size: 1.4rem;
   line-height: 1.8rem;
   letter-spacing: 0.6px;
   margin-bottom: 30px;
 }
 
-.section1 .inner-container1 .inner-container2 h5 {
+.section1 .inner-container2 h5 {
   margin: 20px auto;
 }
 
-.section1 .inner-container1 .inner-container2 button {
+.section1 .inner-container2 button {
   padding: 10px 20px;
   border-radius: 20px;
   background-color: #660764;
   border: 0;
 }
 
-.section1 .inner-container1 .inner-container2 button a {
+.section1 .inner-container2 button a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
@@ -757,12 +753,12 @@ footer .inner-footer h2 {
   overflow-x: hidden;
 }
 
-h1 h2 h3 h4 h5 h6 {
-  font-family: "Tilt Warp", cursive;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "DM Sans", sans-serif;
 }
 
-a p {
-  font-family: "Josefin Sans", sans-serif;
+a, p {
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -783,7 +779,7 @@ nav {
   font-weight: 300;
   width: 100px;
   float: left;
-  margin: 18px auto 15px 60px;
+  margin: 15px auto 15px 60px;
   text-decoration: none;
 }
 
@@ -801,7 +797,7 @@ nav {
   width: auto;
   overflow-x: hidden;
   float: right;
-  margin: 25px 35px 15px auto;
+  margin: 20px 35px 15px auto;
 }
 
 .navlinks li {

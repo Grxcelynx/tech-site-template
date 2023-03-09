@@ -5,11 +5,11 @@
     overflow-x: hidden;
 }
 
-h1 h2 h3 h4 h5 h6{
+h1, h2, h3, h4 ,h5 ,h6{
     font-family: $mainfont;
 }
 
-a p {
+a, p {
     font-family: $secondfont;
 }
 body{
@@ -31,7 +31,7 @@ nav {
     font-weight: 300;
     width: 100px;
     float: left;
-    margin: 18px auto 15px 60px;
+    margin: 15px auto 15px 60px;
     text-decoration: none;
     a{
         text-decoration: none;
@@ -45,7 +45,7 @@ nav {
     width: auto;
     overflow-x: hidden;
     float: right;
-    margin: 25px 35px 15px auto;
+    margin: 20px 35px 15px auto;
 }
 
 

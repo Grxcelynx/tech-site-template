@@ -1,13 +1,17 @@
+
 .section1{
-    background-color: $secondary;
+
 
     .inner-container1{
         background-repeat: no-repeat;
-        background-size: contain !important;
+        background-size: cover;
         background-position: center;
-        background: linear-gradient(rgba(102, 7, 100, 0.5), rgba(102, 7, 100, 0.5)), (url(./imgs/sandro-katalina-k1bO_VTiZSs-unsplash.jpg));
+        background-image: linear-gradient(rgba(102, 7, 100, 0.1), rgba(102, 7, 100, 0.1)), url(/imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
+        // filter: saturate(8);
+        // background-image: url(/imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
         padding: 200px 90px 30px 20px;
         height: auto;
+}
 
 
         .inner-container2{
@@ -53,7 +57,7 @@
         }
 
     }
-}
+
 
 @media screen and (max-width: 995px) {
     .section1{
