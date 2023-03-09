@@ -37,7 +37,34 @@ nav {
         text-decoration: none;
         color: $main;
     }
+
+    a:hover{
+        margin: 0;
+        transform: translateX(-50%);
+        color: white;
+        background:url('../imgs/daniele-levis-pelusi-Vey6fioB1eI-unsplash.jpg');
+        // Photo by <a href="https://unsplash.com/@yogidan2012?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniele Levis Pelusi</a> on <a href="https://unsplash.com/wallpapers/colors/purple?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        background-size: auto 200%;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine 6s linear infinite;
+        &:nth-child(2) {
+        top: 50vh;
+        }
+        @keyframes shine {
+        from {
+            background-position: center 0;
+        }
+        to {
+            background-position: center 200%;
+        }
+        }
+    }
 }
+
+
 
 .navlinks {
     display: flex;
@@ -62,6 +89,12 @@ nav {
     font-weight: bold;
     font-size: 0.9rem;
     margin: auto 20px;
+}
+
+.navlinks a:hover{
+    background: -webkit-linear-gradient(#f602bd, #cd73fd), purple;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .burger {

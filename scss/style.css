@@ -50,6 +50,15 @@
   letter-spacing: 0.8px;
 }
 
+.section1 .inner-container2 button:hover {
+  background-color: lavender;
+}
+
+.section1 .inner-container2 button:hover a {
+  background-color: lavender;
+  color: #381f38;
+}
+
 @media screen and (max-width: 995px) {
   .section1 .inner-container1 {
     padding: 150px 30px 20px 70px;
@@ -191,6 +200,15 @@
   color: white;
   font-weight: 600;
   letter-spacing: 0.9px;
+}
+
+.section2 button:hover {
+  background-color: lavender;
+}
+
+.section2 button:hover a {
+  background-color: lavender;
+  color: #381f38;
 }
 
 @media screen and (max-width: 931px) {
@@ -382,6 +400,15 @@
   font-weight: 700;
 }
 
+.section4 .inner-section4 button:hover {
+  background-color: lavender;
+}
+
+.section4 .inner-section4 button:hover a {
+  background-color: lavender;
+  color: #381f38;
+}
+
 @media screen and (max-width: 869px) {
   .section4 .inner-section4 {
     -webkit-box-orient: vertical;
@@ -479,6 +506,15 @@
   color: white;
   font-weight: 600;
   letter-spacing: 0.9px;
+}
+
+.section5 .inner-section5 .left-5 button:hover {
+  background-color: lavender;
+}
+
+.section5 .inner-section5 .left-5 button:hover a {
+  background-color: lavender;
+  color: #381f38;
 }
 
 .section5 .inner-section5 .right-5 img {
@@ -584,6 +620,15 @@
   text-decoration: none;
   color: white;
   font-weight: 700;
+}
+
+.section6 .inner-section6 button:hover {
+  background-color: lavender;
+}
+
+.section6 .inner-section6 button:hover a {
+  background-color: lavender;
+  color: #381f38;
 }
 
 @media screen and (max-width: 600px) {
@@ -801,6 +846,43 @@ nav {
   color: #381f38;
 }
 
+.logo a:hover {
+  margin: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: white;
+  background: url("../imgs/daniele-levis-pelusi-Vey6fioB1eI-unsplash.jpg");
+  background-size: auto 200%;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: shine 6s linear infinite;
+          animation: shine 6s linear infinite;
+}
+
+.logo a:hover:nth-child(2) {
+  top: 50vh;
+}
+
+@-webkit-keyframes shine {
+  from {
+    background-position: center 0;
+  }
+  to {
+    background-position: center 200%;
+  }
+}
+
+@keyframes shine {
+  from {
+    background-position: center 0;
+  }
+  to {
+    background-position: center 200%;
+  }
+}
+
 .navlinks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -826,6 +908,12 @@ nav {
   font-weight: bold;
   font-size: 0.9rem;
   margin: auto 20px;
+}
+
+.navlinks a:hover {
+  background: -webkit-linear-gradient(#f602bd, #cd73fd), purple;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .burger {
