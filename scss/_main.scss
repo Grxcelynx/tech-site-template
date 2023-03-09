@@ -6,7 +6,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-image: linear-gradient(rgba(102, 7, 100, 0.1), rgba(102, 7, 100, 0.1)), url(./imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
+        background-image: linear-gradient(rgba(102, 7, 100, 0.1), rgba(102, 7, 100, 0.1)), url(../imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
         // filter: saturate(8);
         // background-image: url(/imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
         padding: 200px 90px 30px 20px;
@@ -711,7 +711,25 @@ footer{
         h2{
             font-size: 2.5rem;
             margin: 20px auto;
+            padding: 0px 5px;
         }
     }
 
+}
+
+@media screen and (max-width:600px) {
+    footer{
+    
+        .inner-footer{
+            margin: 70px auto;
+            color: white;
+            letter-spacing: 1px;
+    
+            h2{
+                font-size: 1.7rem;
+                margin: 20px auto;
+            }
+        }
+    
+    }
 }
