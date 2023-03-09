@@ -785,6 +785,11 @@ nav {
   width: 100px;
   float: left;
   margin: 18px auto 15px 60px;
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 .navlinks {
