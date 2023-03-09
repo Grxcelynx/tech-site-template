@@ -29,13 +29,13 @@ nav {
     letter-spacing: .2em;
     font-size: 1.5rem;
     font-weight: 300;
-    color: $main;
     width: 100px;
     float: left;
     margin: 18px auto 15px 60px;
     text-decoration: none;
     a{
         text-decoration: none;
+        color: $main;
     }
 }
 
