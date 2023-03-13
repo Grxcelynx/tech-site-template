@@ -1,4 +1,4 @@
-# Tech site One Page Template
+# Tech Site One Page Template
 this is a one page HTML, SASS, and Javascript template to get started on a portfolio, business, or blog site! 
 <img src="/imgs/cover-README.png" alt="screenshot of the webpage banner">
 
@@ -11,4 +11,4 @@ Template designed and developed by <a target="_blank" href="https://grxcelyn.com
 * JavaScript
 
 ## Creds
-All IMGS have been credided amd sourced on the web[age. I own no photos or graphics displayed. No copyright intended 
+All IMGS have been credited and sourced on the webpage. I own no photos or graphics displayed. No copyright intended
