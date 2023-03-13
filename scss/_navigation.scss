@@ -74,6 +74,7 @@ nav {
     overflow-x: hidden;
     float: right;
     margin: 20px 35px 15px auto;
+    overflow: hidden;
 }
 
 
@@ -121,18 +122,18 @@ nav {
         position: absolute;
         right: 0px;
         height: 50%;
-        width: 25%;
-        top: 60px;
-        background-color: white;
+        top: 7.4vh;
+        background-color: transparent;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(110%);
+        transform: translateX(100%);
         transition: transform 0.5s ease-in;
         overflow-x: hidden;
         z-index: 1;
-        margin: auto;
+        background-color: white;
+        margin: 0 auto;
     }
 
     .navlinks li {
@@ -152,6 +153,7 @@ nav {
 
 .nav-active {
     transform: translateX(0%);
+    overflow: hidden;
 }
 
 @keyframes navLinkFade{
@@ -169,5 +171,9 @@ nav {
 
 .toggle .line1, .toggle .line2 , .toggle .line3  {
     background-color: $secondary;
+}
+
+.toggle {
+    overflow: hidden;
 }
 

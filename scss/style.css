@@ -1,4 +1,8 @@
-.section1 .inner-container1 {
+* {
+  overflow: hidden;
+}
+
+.inner-container1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -8,7 +12,7 @@
   height: auto;
 }
 
-.section1 .inner-container2 {
+.inner-container1 .inner-container2 {
   height: auto;
   max-width: 500px;
   padding: 20px 40px;
@@ -18,30 +22,30 @@
   color: #080008;
 }
 
-.section1 .inner-container2 h2 {
+.inner-container1 .inner-container2 h2 {
   font-size: 1.5rem;
   line-height: 2.3rem;
 }
 
-.section1 .inner-container2 p {
+.inner-container1 .inner-container2 p {
   font-size: 1.2rem;
   line-height: 1.8rem;
   letter-spacing: 0.6px;
   margin: 30px auto;
 }
 
-.section1 .inner-container2 h5 {
+.inner-container1 .inner-container2 h5 {
   margin: 20px auto;
 }
 
-.section1 .inner-container2 button {
+.inner-container1 .inner-container2 button {
   padding: 10px 20px;
   border-radius: 20px;
   background-color: #660764;
   border: 0;
 }
 
-.section1 .inner-container2 button a {
+.inner-container1 .inner-container2 button a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
@@ -49,11 +53,11 @@
   letter-spacing: 0.8px;
 }
 
-.section1 .inner-container2 button:hover {
+.inner-container1 .inner-container2 button:hover {
   background-color: lavender;
 }
 
-.section1 .inner-container2 button:hover a {
+.inner-container1 .inner-container2 button:hover a {
   background-color: lavender;
   color: #381f38;
 }
@@ -889,6 +893,7 @@ nav {
   overflow-x: hidden;
   float: right;
   margin: 20px 35px 15px auto;
+  overflow: hidden;
 }
 
 .navlinks li {
@@ -933,9 +938,8 @@ nav {
     position: absolute;
     right: 0px;
     height: 50%;
-    width: 25%;
-    top: 60px;
-    background-color: white;
+    top: 7.4vh;
+    background-color: transparent;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -947,15 +951,16 @@ nav {
         -ms-flex-align: center;
             align-items: center;
     width: 50%;
-    -webkit-transform: translateX(110%);
-            transform: translateX(110%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
     -webkit-transition: -webkit-transform 0.5s ease-in;
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     overflow-x: hidden;
     z-index: 1;
-    margin: auto;
+    background-color: white;
+    margin: 0 auto;
   }
   .navlinks li {
     opacity: 0;
@@ -972,6 +977,7 @@ nav {
 .nav-active {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
+  overflow: hidden;
 }
 
 @-webkit-keyframes navLinkFade {
@@ -1002,5 +1008,9 @@ nav {
 
 .toggle .line1, .toggle .line2, .toggle .line3 {
   background-color: #660764;
+}
+
+.toggle {
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

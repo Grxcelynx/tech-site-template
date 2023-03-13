@@ -1,5 +1,7 @@
 //  ALL CODE AND DESIGN BY GRACE BIRNAM <a href="https://grxcelyn.com/">Grxcelyn.com</a> 
-.section1{
+*{
+    overflow: hidden;
+}
     .inner-container1{
         background-repeat: no-repeat;
         background-size: cover;
@@ -7,7 +9,7 @@
         background-image: linear-gradient(rgba(102, 7, 100, 0.1), rgba(102, 7, 100, 0.1)), url(../imgs/shubham-dhage-UxDU0Gg5pqQ-unsplash.jpg);
         padding: 200px 90px 30px 20px;
         height: auto;
-    }
+    
         .inner-container2{
             height: auto;
             max-width: 500px;
