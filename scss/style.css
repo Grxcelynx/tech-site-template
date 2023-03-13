@@ -927,6 +927,9 @@ nav {
 }
 
 @media (max-width: 680px) {
+  nav {
+    overflow: hidden;
+  }
   body {
     overflow-x: hidden;
   }
@@ -946,20 +949,20 @@ nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 50%;
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    width: auto;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
     -webkit-transition: -webkit-transform 0.5s ease-in;
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
     overflow-x: hidden;
     z-index: 1;
-    background-color: white;
     margin: 0 auto;
   }
   .navlinks li {
     opacity: 0;
+    background-color: white;
   }
   .burger {
     display: block;
@@ -974,6 +977,7 @@ nav {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
   overflow: hidden;
+  background-color: white;
 }
 
 @-webkit-keyframes navLinkFade {
