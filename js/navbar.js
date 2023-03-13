@@ -1,3 +1,4 @@
+//  ALL CODE AND DESIGN BY GRACE BIRNAM <a href="https://grxcelyn.com/">Grxcelyn.com</a> 
 const navSlide = () => {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".navlinks");
